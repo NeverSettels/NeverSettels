@@ -1,0 +1,22 @@
+.no-show {
+  display: none;
+}
+
+.button-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.button-container > button {
+  transition: all 1s linear;
+}
+/* #snake-btn,
+#turtles-btn,
+#bug-btn {
+  transition: all 1s linear;
+} */
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.694);
+}
